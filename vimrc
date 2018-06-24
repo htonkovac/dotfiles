@@ -4,16 +4,23 @@ call pathogen#infect()
 set ruler
 set cmdheight=2
 set noswapfile
-set report=0 
-set shortmess=
+
+
+
+
+
 
 
 try
-    colorscheme desert
+  colorscheme desert
 catch
 endtry
+
 set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
 
 set background=dark
-set foldcolumn=1
+" reddit
+set report=0 
+set shortmess=
 
+command Q q!
