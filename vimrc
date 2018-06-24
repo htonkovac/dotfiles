@@ -4,6 +4,9 @@ call pathogen#infect()
 set ruler
 set cmdheight=2
 set noswapfile
+set report=0 
+set shortmess=
+
 
 try
     colorscheme desert
