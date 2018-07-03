@@ -4,7 +4,8 @@ call pathogen#infect()
 set ruler
 set cmdheight=2
 set noswapfile
-
+set number                     " Show current line number
+set relativenumber             " Show relative line numbers
 
 
 
@@ -12,7 +13,7 @@ set noswapfile
 
 
 try
-  colorscheme desert
+  "colorscheme desert
 catch
 endtry
 
