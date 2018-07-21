@@ -19,4 +19,6 @@ set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ 
 set report=0 
 set shortmess=
 
+se mouse+=a "dont select line nubmers with mouse
+
 command Q q!
