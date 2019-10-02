@@ -62,6 +62,7 @@ plugins=(
 	git
 	docker
 	sudo
+	terraform
 )
 
 source $ZSH/oh-my-zsh.sh
